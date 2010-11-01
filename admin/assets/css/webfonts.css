@@ -1,0 +1,178 @@
+/****
+Copyright 2010 Monotype Imaging Inc.  
+This program is distributed under the terms of the GNU General Public License
+****/
+
+div {
+	font-family: Arial,Helvetica,sans-serif !important;
+	}
+a{
+	font-family: Arial,Helvetica,sans-serif !important;
+	}
+.wfs_info_text
+{
+	font-size:11px;
+	color:#777
+}
+.wfs_info
+{
+	color:#888;
+	font-size:11px;
+	line-height:125%;
+	font-family: Tahoma, Geneva, sans-serif;
+}
+.wfs_day_row
+{
+	background:#F9F9F9;
+	padding:5px;
+	border:1px solid #eee;
+	clear:both;
+	margin-bottom:10px;
+}
+.wfs_row{
+	margin-bottom:10px;
+	clear:both;
+	
+}
+.wfs_row label
+{
+	display:block;
+	color:#666;
+	line-height:2em;
+}
+.wfs_project_button
+{
+	margin-top:20px;
+	border-top:1px solid #D9EAF5;
+	padding-top:10px;
+}
+/* Tab system*/
+ul.wfs_tabNav li.wfs_current a, ul.wfs_tabNav li a:hover, ul.wfs_tabNav2 li.wfs_current a, ul.wfs_tabNav2 li a:hover {
+	color:#000 !important;
+	}  
+div.wfs_tabContainer div.wfs_tab { display: none; }
+div.wfs_tabContainer div.wfs_current { display: block; }  
+/*end tab system*/
+/*button*/
+.b_outer
+{
+	background-image:url(../images/grey_button_bg_left.gif);
+	background-position:0 0;
+	background-repeat:no-repeat;
+	cursor:pointer;
+	display:block;
+	float:left;
+	margin-top:1px;
+	padding-left:10px;
+	
+}
+.b_inner
+{
+	background-image:url(../images/grey_button_bg_right.gif);
+	background-position:100% 0;
+	background-repeat:no-repeat;
+	cursor:pointer;
+	display:block;
+	float:left;
+	padding:2px 10px 8px 0;
+	\ padding:1px 10px 8px 0;
+	
+}
+.b_inner a
+{
+	text-decoration:none;
+	padding:1px 3px 3px 3px;
+	display:block;
+	color:#000;
+}
+.b_inner a:hover
+{
+	text-decoration:none;
+	color:#000;
+	cursor:pointer;
+}
+.b_style
+{
+	border:none;
+	background:none;
+	cursor:pointer;
+	
+}
+h3#wfs_hidediv
+{
+	background: url(../images/j_arrow.png) no-repeat 8px 7px #F6F6F6;
+	color:#666;
+	padding:4px 2px 4px 25px;
+	margin:0;
+	cursor:pointer;
+	
+}
+h3.wfs_expanded
+{
+	background-image: url(../images/j_arrow_down.png) !important;
+	
+}
+.wfs_hiddendiv
+{
+	padding:7px;
+	border-top:1px solid #ccc;
+	background:#fcfcfc;
+	
+}
+.relativePos
+{
+position:relative;	
+}
+.wfs_panel
+{
+	border:1px solid #CCCCCC;
+	margin-bottom:3px;
+	
+}
+.icon-32-sync    { 
+        background-image: url(../images/sync.png); 
+}
+.icon-48-wfs_logo    { 
+        background-image: url(../images/logo.gif); 
+		padding-left:305px !important;
+}
+.icon-32-home    { 
+        background-image: url(../images/home.png); 
+		
+}
+.icon-32-account    { 
+        background-image: url(../images/account.png); 
+		
+}
+.wfs_loading_image{
+	position:absolute;
+	left:50%;
+	top:50%;
+	background-image: url(../images/loading.gif); 
+	height:40px;
+	width:40px;
+	z-index:1;
+	}
+
+/**/
+.ml
+{
+	margin-left:5px;
+}
+.left
+{
+	float:left;
+}
+.right
+{
+	float:right;
+}
+.clear
+{
+	clear:both;
+	
+}
+.pagination
+{
+	\ position:absolute;
+}

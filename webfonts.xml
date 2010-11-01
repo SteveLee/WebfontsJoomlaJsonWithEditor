@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<install type="component" version="1.5.0">
+ <name>webfonts</name>
+ <!-- The following elements are optional and free of formatting constraints -->
+ <creationDate>2010-07-26</creationDate>
+ <author>MTI</author>
+ <authorEmail></authorEmail>
+ <authorUrl>http://www.webfonts.fonts.com</authorUrl>
+ <copyright>@Copyright 2010. All right reserved.</copyright>
+ <license>GPL</license>
+ <!--  The version string is recorded in the components table -->
+ <version>1.0</version>
+ <!-- The description is optional and defaults to the name -->
+ <description>This component will provide a interface to manage Fonts.com webfonts project in Joomla.</description>
+	
+ <files>
+
+  <filename>webfonts.php</filename>
+  <filename>index.html</filename>
+  
+ </files>	
+	
+	
+ <installfile>install_webfonts.php</installfile>
+		<uninstallfile>uninstall_webfonts.php</uninstallfile>
+ <install>
+  <sql>
+    <file charset="utf8" driver="mysql">install.sql</file>
+  </sql>
+   
+ </install>
+ <uninstall>
+  <sql>
+    <file charset="utf8" driver="mysql">uninstall.sql</file>
+  </sql>
+ </uninstall>
+ 
+ <params>
+		<param name="wfs_public_key" default="publicKey" />
+		<param name="wfs_private_key"  default="privateKey"  />
+		<param name="wfs_user_id"  default="0000"  />
+		<param name="wfs_usertype"  default="0"  />
+		<param name="wfs_pagination"  default="10"  />
+ </params>
+  <!-- Administration Section -->
+ <administration>
+  <!-- Administration Menu  -->
+  <menu>Fonts.com webfonts</menu>
+  <!-- Administration Files  -->
+  <files folder="admin">
+   <filename>webfonts.php</filename>
+   <filename>index.html</filename>
+   <filename>install.sql</filename>
+   <filename>uninstall.sql</filename>
+   <filename>controller.php</filename>
+   <filename>install_webfonts.php</filename>
+   <filename>uninstall_webfonts.php</filename>
+   
+   <filename>assets/css/webfonts.css</filename>
+   
+   <filename>assets/js/webfonts.js</filename>
+   <filename>assets/js/jquery-1.4.2.min.js</filename> 
+   
+   <filename>assets/images/cross.gif</filename>
+   <filename>assets/images/grey_button_bg_left.gif</filename>
+   <filename>assets/images/grey_button_bg_right.gif</filename> 
+   <filename>assets/images/j_arrow.png</filename>
+   <filename>assets/images/j_arrow_down.png</filename>
+   <filename>assets/images/loading.gif</filename>
+   <filename>assets/images/logo.gif</filename>
+   <filename>assets/images/sync.png</filename>
+   <filename>assets/images/tick.gif</filename>
+   <filename>assets/images/home.png</filename>
+   <filename>assets/images/account.png</filename>
+	 
+   <filename>controllers/webfontsconfigure.php</filename>  
+   <filename>controllers/webfontslogin.php</filename>  
+   <filename>controllers/webfontsproject.php</filename>    
+   <filename>controllers/index.html</filename>
+    
+   <filename>libraries/includes.php</filename> 
+   <filename>libraries/json.class.php</filename> 
+   <filename>libraries/wfs_pagination.php</filename>  
+   <filename>libraries/wfsapi.class.php</filename>  
+   
+   <filename>models/index.html</filename>  
+   <filename>models/webfontsconfigure.php</filename>
+   <filename>models/webfontslogin.php</filename>
+   <filename>models/webfontsproject.php</filename>  
+   
+   <filename>tables/index.html</filename> 
+   <filename>tables/webfonts.php</filename>
+   <filename>tables/webfontslogin.php</filename> 
+   <filename>tables/webfontsmenu.php</filename> 
+   
+   <filename>views/index.html</filename>  
+   
+   <filename>views/webfontslogin/index.html</filename>
+   <filename>views/webfontslogin/view.html.php</filename>
+   <filename>views/webfontslogin/tmpl/index.html</filename>
+   <filename>views/webfontslogin/tmpl/default.php</filename>
+   
+   <filename>views/webfontsproject/index.html</filename>
+   <filename>views/webfontsproject/view.html.php</filename>
+   <filename>views/webfontsproject/tmpl/index.html</filename>
+   <filename>views/webfontsproject/tmpl/default.php</filename>
+   
+   <filename>views/webfontsconfigure/index.html</filename>
+   <filename>views/webfontsconfigure/view.html.php</filename>
+   <filename>views/webfontsconfigure/tmpl/index.html</filename>
+   <filename>views/webfontsconfigure/tmpl/default.php</filename>
+   <filename>views/webfontsconfigure/tmpl/edit_domain.php</filename>
+   <filename>views/webfontsconfigure/tmpl/edit_domain_form.php</filename>
+   <filename>views/webfontsconfigure/tmpl/edit_stylesheet.php</filename>
+  
+  </files>
+  </administration>
+</install>
+ 
