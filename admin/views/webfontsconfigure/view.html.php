@@ -33,7 +33,7 @@ class WebfontsBaseViewWebfontsConfigure extends JView
 		if($layout == "edit_domain_form"){
 			JToolBarHelper::title( JText::_( 'Edit Domain' ), 'wfs_logo' );
 		}else{
-			JToolBarHelper::title( JText::_( 'Projects Details' ), 'wfs_logo' );
+			JToolBarHelper::title( JText::_( 'Project Detail' ), 'wfs_logo' );
 		}
 		 // Get data from the model
         $wfs_projects =& $this->get( 'Data');
